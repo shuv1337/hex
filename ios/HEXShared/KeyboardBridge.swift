@@ -491,9 +491,9 @@ nonisolated enum KeyboardFullAccess: Equatable, Sendable {
 
 @MainActor
 struct KeyboardBridge {
-    nonisolated static let appGroup = "group.anomaly.hex.mobile"
+    nonisolated static let appGroup = "group.dev.shuv.hex.mobile"
     /// Posted by the keyboard each time it reports Full Access (`recordFullAccess`).
-    nonisolated static let fullAccessDarwinNotification = "anomaly.hex.mobile.keyboard.fullAccess"
+    nonisolated static let fullAccessDarwinNotification = "dev.shuv.hex.mobile.keyboard.fullAccess"
     /// The keyboard's Darwin notification, forwarded on the main thread once
     /// `forwardFullAccessReports()` has run in the app.
     nonisolated static let fullAccessReported = Notification.Name("KeyboardBridge.fullAccessReported")

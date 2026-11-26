@@ -18,7 +18,7 @@ enum HexInbox {
         case words(HexWordsReadResult?)
     }
 
-    private static let log = Logger(subsystem: "anomaly.hex.mobile", category: "inbox")
+    private static let log = Logger(subsystem: "dev.shuv.hex.mobile", category: "inbox")
     private static let folderName = "HexInbox"
 
     private static var privateFolder: URL {

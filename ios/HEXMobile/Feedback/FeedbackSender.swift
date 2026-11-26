@@ -10,7 +10,7 @@ final class FeedbackSender {
     /// 0…1 while the body uploads.
     private(set) var progress: Double = 0
     private(set) var attempt = 0
-    private let log = Logger(subsystem: "anomaly.hex.mobile", category: "feedback")
+    private let log = Logger(subsystem: "dev.shuv.hex.mobile", category: "feedback")
 
     func send(_ request: FeedbackRequest, key: String) async -> FeedbackOutcome {
         let key = Self.override("--feedback-key") ?? key

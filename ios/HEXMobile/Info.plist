@@ -41,7 +41,7 @@
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>CFBundleURLName</key>
-			<string>anomaly.hex.mobile.keyboard-session</string>
+			<string>dev.shuv.hex.mobile.keyboard-session</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
 				<string>hex-dictation</string>

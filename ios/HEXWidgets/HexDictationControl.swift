@@ -4,7 +4,7 @@ import WidgetKit
 
 @available(iOS 18.0, *)
 struct HexDictationControl: ControlWidget {
-    static let kind = "anomaly.hex.mobile.control.dictate"
+    static let kind = "dev.shuv.hex.mobile.control.dictate"
 
     var body: some ControlWidgetConfiguration {
         StaticControlConfiguration(kind: Self.kind) {
